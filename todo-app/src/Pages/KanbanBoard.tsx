@@ -47,7 +47,7 @@ function KanbanBoard() {
 
   return (
     <>
-   {false ? <Loader/>: 
+   {/* {false ? <Loader/>:  */}
     <DndProvider backend={HTML5Backend}>
       <div className="min-h-screen bg-gray-50 p-8">
         <h1 className="text-3xl font-bold text-gray-800 mb-8 text-center">
@@ -66,7 +66,7 @@ function KanbanBoard() {
         </div>
       </div>
     </DndProvider>
-}
+{/* } */}
     </>
   );
 }
